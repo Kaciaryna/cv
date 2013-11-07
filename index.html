@@ -10,14 +10,16 @@
 <body>
 
 <div class="page">
-    <h1>Kate Dubouskaya</h1>
-    <h4>Front-end developer</h4>
+    <div class="vcard">
+      <h1 class='fn'>Kate Dubouskaya</h1>
+      <h4>Front-end developer</h4>
 
-    <dl class="main-info">
-        <dd>Age</dd>        <dt class="x_age"></dt>
-        <dd>Email</dd>      <dt><a href="mailto:rinawwwster@gmail.com">rinawwwster@gmail.com</a></dt>
-        <dd>Github</dd>     <dt><a href="https://github.com/Kaciaryna/">https://github.com/Kaciaryna/</a></dt>
-    </dl>
+      <dl class="main-info">
+          <dd>Age</dd>        <dt class="bday x_age"></dt>
+          <dd>Email</dd>      <dt><a class="email" href="mailto:rinawwwster@gmail.com">rinawwwster@gmail.com</a></dt>
+          <dd>Github</dd>     <dt><a class="url" rel='profile' href="https://github.com/Kaciaryna/">https://github.com/Kaciaryna/</a></dt>
+      </dl>
+    </div>
 
     <h2>Major Skills</h2>
 
@@ -28,8 +30,8 @@
             <td class="lang">HTML5 / Haml</td>
             <td>
                 <p>
-                    Writing HTML I try to stick to semantic markup, use the possibilities of HTML5. Also I like the
-                    idea of microformates, most ideas of BEM (Block-Element-Modifier - breaking the page into
+                    Writing HTML I try to stick to semantic markup, to use the possibilities of HTML5. Also I like the
+                    idea of microformats, most ideas of BEM (Block-Element-Modifier - breaking the page into
                     independent blocks and reuse the code where it's possible).
                 </p>
             </td>
@@ -39,8 +41,8 @@
             <td class="lang">CSS3 / Sass / Scss</td>
             <td>
                 <p>
-                    Working with CSS I especially like using preprocessors like Sass or Scss, that allow a developer
-                    a lot of useful tools to develop faster and produce cleaner, more readable code.
+                    Working with CSS I especially like using preprocessors like Sass or Scss, that give a developer
+                    a lot of useful tools to solve the problems faster and produce cleaner, more readable code.
                     Variables, mixins, functions are great help when you need to write a large stylesheets with
                     thousands of css rules.
                 </p>
@@ -49,7 +51,7 @@
                     Nowadays, possibilities that offer us CSS3 are irreplaceable and can help to realize almost
                     every wish of a designer or a client. I like to use the features of CSS3 in projects. For example,
                     CSS3 media queries are great when there is a task to make the responsive design.
-                    Box-shadows and border radiuses are a fron-end developers' nightmare without CSS3!
+                    Box-shadows and border radiuses are a front-end developers' nightmare without CSS3!
                 </p>
             </td>
         </tr>
@@ -59,6 +61,7 @@
             <td>
                 <p>
                     I like JS and can write some code in pure JS or using frameworks, like jQuery.
+                    Most problems that I solved using JavaScript referred to client interfaces.
                 </p>
             </td>
         </tr>
@@ -81,7 +84,7 @@
     <h2>Major Projects</h2>
 
     <h3 class="company">Altoros Development (Belarus) / ShoeDazzle (US)</h3>
-    <h4>XX/XXXX <span>&#x2192;</span> present</h4>
+    <h4>06/2012 <span>&#x2192;</span> present</h4>
 
     <p class="description">
         As a member of huge international team took part in development of ShoeDazzle.com site and its
@@ -94,57 +97,68 @@
     </p>
 
     <p class="description">
-        As a html coder I delt with css (<span class="experience">Sass</span>, SCSS) and html code mostly. During my work in ShoeDazzle team site was
-        fully redesigned - that means, that almost all css and html code was rewritten or lagely optimized.
-        A lot of <span class="experience">CSS3</span> feaures and <span class="experience">HTML5</span> tags were used in redesign.
+        As a HTML coder I dealt with CSS (<span class="experience">Sass</span>, SCSS) and html code mostly. During my work in ShoeDazzle team site was
+        fully redesigned - that means, that almost all CSS and HTML code was rewritten or largely optimized.
+        A lot of <span class="experience">CSS3</span> and <span class="experience">HTML5</span> features were used in redesign.
         As for old browsers, was decided to drop support of IE7, and to use graceful degradation for IE8,9
-        (to show the complicatedly designed elements more simpler for this browsers).
+        (to show the complicatedly designed elements simpler for these browsers).
     </p>
 
     <p class="description">
         The practice of a/b testing was used on ShoeDazzle. That means that the same page could have been shown
         differently to different users and the developer should make it look good for everyone.
-        Git is used to maintain version control.
-
-        ---------------------> Ie7+ => Ie8+ support
+        Git was used to maintain version control.
+    </p>
+    <p class="interesting-fact">
+      Supported browsers: Chrome, Firefox, Safari, Internet Explorer 8+
     </p>
 
 
     <h3 class="company">Altoros Development (Belarus)</h3>
-    <h4>XX/XXXX <span>&#x2192;</span> XX/XXXX</h4>
+    <h4>04/2012 <span>&#x2192;</span> 06/2012</h4>
 
     <p class="description">
-        Participated in development of mobile version of site for fireplaces.com - m.fireplaces.com.
-        My work included writing html and css code on the base of PSD templates,
-        using <span class="experience">HTML5</span> and <span class="experience">CSS3</span> technologies, testing my work on iphone and android devices.
-        I used <span class="experience">tortoiseSVN</span> utility to work with <span class="experience">SVN</span> version control.
+        I participated in development of mobile version of site for Fireplaces.com.
+        My work included writing HTML and CSS code on the base of PSD templates, testing my work on iphone and android devices.
+        I used <span class="experience">tortoiseSVN</span> - a utility to work with <span class="experience">SVN</span> version control.
         The primary goal was to make the mobile site <span class="experience">responsive</span> - to look good on iphone, ipad and various android
-        devices.
+        devices, that was achieved with the help of <span class="experience">HTML5</span> and <span class="experience">CSS3</span> features.
+    </p>
+    <p>
+      The main structure of HTML should have been designed to be able to be greatly customized for different brands with the use of
+      CSS.
+      My task was to write the code that can be easily reused for various brands with the minimum HTML changes.
+    </p>
 
-        ---------------------> Mobile safari on iphone, default browser on android
+    <p>The main difficulty on this project was to test the code on variety of android devices, mostly to get all the needed devices.</p>
+
+    <p class="interesting-fact">
+      Supported browsers: Mobile safari on iphone, default browser on android
     </p>
 
     <h3 class="company">Altoros Development (Belarus)</h3>
-    <h4>XX/XXXX <span>&#x2192;</span> XX/XXXX</h4>
+    <h4>03/2012 <span>&#x2192;</span> 04/2012</h4>
 
     <p class="description">
-        ---------------------> New altoros site
-        Took part in the development of new Altoros site - welcome.altoros.com.
-        This site is less serios analog of altoros.com site.
-        My task was to apply design to <span class="experience">Wordpress template</span>, adjust plugins for facebook, twitter,
+        I took part in the development of new Altoros site - welcome.altoros.com.
+        This site is less serious analog of Altoros.com site.
+        My task was to apply design to <span class="experience">WordPress template</span>, adjust plugins for facebook, twitter,
         manage plugins for navigation.
-        ---------------------> Ie 7+ Support
+    </p>
+    <p class="interesting-fact">
+      Supported browsers: Chrome, Firefox, Safari, Opera, Internet Explorer 7+
     </p>
 
     <h3 class="company">Altoros Development (Belarus)</h3>
-    <h4>XX/XXXX <span>&#x2192;</span> XX/XXXX</h4>
+    <h4>02/2012 <span>&#x2192;</span> 04/2012</h4>
 
     <p class="description">
         Worked on the optimization of Altoros sites (altoros.no, altoros.dk, altoros.com).
-        Among my responsibilities were correction of html code and styles according to the changes
-        in design and functionality, optimization of css code and images, working with <span class="experience">Joomla admin panel</span>.
-
-        ---------------------> Ie 7+ Support
+        Among my responsibilities were correction of HTML code and styles according to the changes
+        in design and functionality, optimization of CSS code and images, working with <span class="experience">Joomla admin panel</span>.
+    </p>
+    <p class="interesting-fact">
+      Supported browsers: Chrome, Firefox, Safari, Opera, Internet Explorer 7+
     </p>
 </div>
 
