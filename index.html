@@ -30,9 +30,9 @@
             <td class="lang">HTML5 / Haml</td>
             <td>
                 <p>
-                    Writing HTML I try to stick to semantic markup, to use the possibilities of HTML5. Also I like the
-                    idea of microformats, most ideas of BEM (Block-Element-Modifier - breaking the page into
-                    independent blocks and reuse the code where it's possible).
+                    Writing HTML I try to stick to semantic markup, to use the possibilities of HTML5.
+                    Also I like the idea breaking the page into components (with isolated styles and js)
+                    and reuse them over the application.
                 </p>
             </td>
         </tr>
@@ -41,7 +41,7 @@
             <td class="lang">CSS3 / Sass / Scss</td>
             <td>
                 <p>
-                    Working with CSS I especially like using preprocessors like Sass or Scss, that give a developer
+                    Working with CSS I especially like using preprocessors like Sass or SCSS, that give a developer
                     a lot of useful tools to solve the problems faster and produce cleaner, more readable code.
                     Variables, mixins, functions are great help when you need to write a large stylesheets with
                     thousands of css rules.
@@ -57,11 +57,13 @@
         </tr>
 
         <tr>
-            <td class="lang">JavaScript / CoffeeScript</td>
+            <td class="lang">JavaScript / Typescript</td>
             <td>
                 <p>
-                    I like JS and can write some code in pure JS or using frameworks, like jQuery.
-                    Most problems that I solved using JavaScript referred to client interfaces.
+                    I like JS for its unique prevalence in the world and I follow the news of language realizations with great interest.
+                    I appreciate the usage of ES6+ features and I absolutely love TypeScript.
+                    I consider modern frameworks like Vue.js and React to be the great tools for front-end developers,
+                    that help us to make complex applications with less effort and to be more productive.
                 </p>
             </td>
         </tr>
@@ -70,34 +72,87 @@
     <h3>Technologies</h3>
 
     <dl class="technologies">
-        <dd>Server-side frameworks</dd><dt>Familiar with Ruby on Rails and Sinatra (as front-end developer)</dt>
-        <dd>Client-side</dd><dt>HTML/HAML, CSS/SASS, AJAX, jQuery, Backbone</dt>
+        <dd>Server-side frameworks</dd><dt>Ruby on Rails</dt>
+        <dd>Client-side</dd><dt>HTML/HAML, CSS/SCSS, AJAX, Vue.js, React, Angular</dt>
         <dd>CVS</dd><dt>Git, SVN</dt>
-        <dd>Image editors</dd><dt>Adobe Photoshop, Pixelmator</dt>
         <dd>Other</dd>
-        <dt class="other-technologies">Semantic markup, microformates, adaptive and responsive design</dt>
-        <dt class="other-technologies">jQuery UI, jQuery plugins development</dt>
+        <dt class="other-technologies">Semantic markup, component based markup, adaptive and responsive design</dt>
     </dl>
 </div>
 
 <div class="page">
     <h2>Major Projects</h2>
+
+    <h3 class="company">PeerStreet (US)</h3>
+    <h4>5/2015 <span>&#x2192;</span> 07/2020</h4>
+
+    <p class="description">
+        PeerStreet is a fintech company that deals with crowdfunding in real estate.
+    </p>
+
+    <p class="description">
+        I worked 5 years for PeerStreet. During this time I participated in a great deal of sub-projects.
+        We built two new internal platforms for our own team members, which helped them to automate their work,
+        fastened the processing of documents and facilitated the communication with our internal team members, clients,
+        banks and organizations.
+    </p>
+    <p class="description">
+        As a main JS framework we chose and used Vue.js.
+        There were lots of interesting goals to meet at PeerStreet. I took part, for example, in development of automated
+        investing project. We introduced to the user a bunch of settings, adjusting which he  or she could enable
+        automated system of investing in new loans through our retail platform.
+    </p>
+    <p class="description">
+        Another interesting project was to develop a prototype of a document processing platform. There
+        we decided to use Bulma CSS framework with Vue.js. Bulma is a small lightweight framework,
+        together with Vue.js it gave us a possibility to make an MVP and to start testing it in a short period of time.
+    </p>
+
+    <p class="description">
+        At PeerStreet I cooperated tightly with the UX team and we solved a lot of user experience problems together.
+    </p>
+
+    <h3 class="company">StyleBee (US)</h3>
+    <h4>02/2015 <span>&#x2192;</span> 10/2017</h4>
+
+    <p class="description">
+        StyleBee is an application for connecting stylists and clients.
+    </p>
+
+    <p class="description">
+        As a front-end developer I dealt a lot with styling of the pages, adding new functionality,
+        refactoring the old code. During my cooperation with StyleBee we made a complete redesign of all the app.
+        As javascript framework we used Angular.
+    </p>
+
+    <p class="description">
+        One of interesting projects at StyleBee was adding search for stylist and services by zipcode.
+        I tightly cooperated with designers and UX specialists and together we found solutions to
+        different interesting design solutions (one of them was to style the checkout process).
+    </p>
+
+
     <h3 class="company">The Honest Company (US)</h3>
-    <h4>02/2014 <span>&#x2192;</span> present</h4>
+    <h4>02/2014 <span>&#x2192;</span> 5/2015</h4>
 
     <p class="description">
         Honest.com is a subscription based internet shop of diapers, wipes, organic cosmetics, home cleaning products, etc.
     </p>
 
     <p class="description">
-        My responsibilities embrace dealing with CSS (<span class="experience">Sass</span>) and html (<span class="experience">HAML</span>)
-        using <span class="experience">Bootstrap</span> to manage the responsive design, as well as writing jQuery to maintain small
+        My responsibilities embraced dealing with CSS (Sass) and html (HAML)
+        using Bootstrap to manage the responsive design, as well as writing jQuery to maintain small
         interactive parts.
+    </p>
+    <p class="description">
+        As a JS framework we used Angular v1.
+        While working at Honest we started decoupling the project into several microservices and also
+        we started work on a new application, that was dealing with cosmetics.
     </p>
 
 
     <h3 class="company">Altoros Development (Belarus) / ShoeDazzle (US)</h3>
-    <h4>06/2012 <span>&#x2192;</span> 12/2013</h4>
+    <h4>02/2012 <span>&#x2192;</span> 12/2013</h4>
 
     <p class="description">
         As a member of huge international team took part in development of ShoeDazzle.com site and its
@@ -110,11 +165,9 @@
     </p>
 
     <p class="description">
-        As a HTML coder I dealt with CSS (<span class="experience">Sass</span>, SCSS) and html code mostly. During my work in ShoeDazzle team site was
+        As a HTML coder I dealt with CSS (Sass, SCSS) and html code mostly. During my work in ShoeDazzle team site was
         fully redesigned - that means, that almost all CSS and HTML code was rewritten or largely optimized.
-        A lot of <span class="experience">CSS3</span> and <span class="experience">HTML5</span> features were used in redesign.
-        As for old browsers, was decided to drop support of IE7, and to use graceful degradation for IE8,9
-        (to show the complicatedly designed elements simpler for these browsers).
+        A lot of CSS3 and HTML5 features were used in redesign.
     </p>
 
     <p class="description">
@@ -122,56 +175,12 @@
         differently to different users and the developer should make it look good for everyone.
         Git was used to maintain version control.
     </p>
-    <p class="interesting-fact">
-      Supported browsers: Chrome, Firefox, Safari, Internet Explorer 8+
-    </p>
-
-
-    <h3 class="company">Altoros Development (Belarus)</h3>
-    <h4>04/2012 <span>&#x2192;</span> 06/2012</h4>
 
     <p class="description">
-        I participated in development of mobile version of site for Fireplaces.com.
+        At Altoros I also participated in development of mobile version of site for Fireplaces.com.
         My work included writing HTML and CSS code on the base of PSD templates, testing my work on iphone and android devices.
-        I used <span class="experience">tortoiseSVN</span> - a utility to work with <span class="experience">SVN</span> version control.
-        The primary goal was to make the mobile site <span class="experience">responsive</span> - to look good on iphone, ipad and various android
-        devices, that was achieved with the help of <span class="experience">HTML5</span> and <span class="experience">CSS3</span> features.
-    </p>
-    <p>
-      The main structure of HTML should have been designed to be able to be greatly customized for different brands with the use of
-      CSS.
-      My task was to write the code that can be easily reused for various brands with the minimum HTML changes.
-    </p>
-
-    <p>The main difficulty on this project was to test the code on variety of android devices, mostly to get all the needed devices.</p>
-
-    <p class="interesting-fact">
-      Supported browsers: Mobile safari on iphone, default browser on android
-    </p>
-
-    <h3 class="company">Altoros Development (Belarus)</h3>
-    <h4>03/2012 <span>&#x2192;</span> 04/2012</h4>
-
-    <p class="description">
-        I took part in the development of new Altoros site - welcome.altoros.com.
-        This site is less serious analog of Altoros.com site.
-        My task was to apply design to <span class="experience">WordPress template</span>, adjust plugins for facebook, twitter,
-        manage plugins for navigation.
-    </p>
-    <p class="interesting-fact">
-      Supported browsers: Chrome, Firefox, Safari, Opera, Internet Explorer 7+
-    </p>
-
-    <h3 class="company">Altoros Development (Belarus)</h3>
-    <h4>02/2012 <span>&#x2192;</span> 04/2012</h4>
-
-    <p class="description">
-        Worked on the optimization of Altoros sites (altoros.no, altoros.dk, altoros.com).
-        Among my responsibilities were updating of HTML code and styles according to the changes
-        in design and functionality, optimization of CSS code and images, working with <span class="experience">Joomla admin panel</span>.
-    </p>
-    <p class="interesting-fact">
-      Supported browsers: Chrome, Firefox, Safari, Opera, Internet Explorer 7+
+        The primary goal was to make the mobile site responsive - to look good on iphone, ipad and various android
+        devices, that was achieved with the help of HTML5 and CSS3 features.
     </p>
 </div>
 
